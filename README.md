@@ -31,9 +31,9 @@ Because different AI clients have slightly different metadata requirements for t
 
 The simplest way is to install it directly from the GitHub repository using the ChatGPT Desktop app:
 1. Open the **Add plugin marketplace** dialog in the app.
-2. Set **Source** to the URL of this repository (e.g., `git@github.com:org/repo.git`).
+2. Set **Source** to `https://github.com/SnowyVit/onvidio-plugin.git`
 3. Set **Git ref** to `main`.
-4. 4. Set **Sparse paths** to `/`.
+4. Leave **Sparse paths** empty (since the plugin is at the root of the repository).
 
 *(Alternative CLI Method)*: Clone the repository locally and run:
 ```bash
