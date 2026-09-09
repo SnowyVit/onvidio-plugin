@@ -1,0 +1,42 @@
+{
+  "type": "video",
+  "title": "Quarterly Performance Update",
+  "musicRecommendation": {
+    "genre": "Corporate",
+    "mood": "Focused",
+    "useCase": "Presentation",
+    "bpm": 110
+  },
+  "scenes": [
+    {
+      "id": "scene-1",
+      "type": "description",
+      "category": "Q3 Review",
+      "title": "Record Breaking Q3",
+      "subtitle": "Our team achieved a 45% increase in user acquisition this quarter, shattering all previous internal records. This growth was driven primarily by the new referral program.",
+      "features": [
+        "45% User Acquisition Growth",
+        "Shattered Q2 Internal Records",
+        "Driven by New Referral Program"
+      ],
+      "narration": "What an incredible quarter. Our team achieved a forty-five percent increase in user acquisition, completely shattering our previous records thanks to the new referral program.",
+      "mediaSearchQuery": "business growth chart"
+    },
+    {
+      "id": "scene-2",
+      "type": "quote",
+      "category": "Leadership",
+      "title": "A Word From The CEO",
+      "subtitle": "The dedication shown by our product teams over the last three months proves that when we align on our core metrics, we are unstoppable.",
+      "features": [
+        "Unprecedented Product Team Dedication",
+        "Aligned Core Metrics",
+        "Unstoppable Momentum"
+      ],
+      "quote": "The dedication shown by our product teams proves that we are unstoppable.",
+      "author": "Jane Doe, CEO",
+      "narration": "Jane Doe said it best: the dedication shown by our product teams proves that when we align on our core metrics, we are unstoppable.",
+      "mediaSearchQuery": "female executive smiling"
+    }
+  ]
+}

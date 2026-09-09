@@ -1,0 +1,45 @@
+{
+  "name": "onvidio",
+  "version": "1.0.0",
+  "description": "Create production-ready videos using the Onvidio Video Builder.",
+  "author": {
+    "name": "Onvidio Team",
+    "email": "support@mo2ow.com",
+    "url": "https://onvidio.com"
+  },
+  "homepage": "https://onvidio.com",
+  "license": "Proprietary",
+  "keywords": [
+    "video",
+    "builder",
+    "creation",
+    "marketing",
+    "video editing",
+    "b2b",
+    "business"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Onvidio",
+    "shortDescription": "Create, script, and generate professional business videos directly in ChatGPT.",
+    "longDescription": "Onvidio is the ultimate AI copilot for B2B and professional business video creation. Draft your scene-by-scene narrative, write conversational voiceovers, and generate production-ready specs for product launches, tutorials, and corporate updates directly inside ChatGPT.",
+    "developerName": "Onvidio Team",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://onvidio.com",
+    "privacyPolicyURL": "https://onvidio.com/privacy",
+    "termsOfServiceURL": "https://onvidio.com/terms",
+    "defaultPrompt": [
+      "Create a promotional video for our new feature launch.",
+      "Write a step-by-step tutorial video for our onboarding.",
+      "Turn this text into an async team update video."
+    ],
+    "brandColor": "#4b5694",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}
