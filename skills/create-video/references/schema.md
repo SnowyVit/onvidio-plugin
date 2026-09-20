@@ -47,3 +47,15 @@ To ensure videos look polished across all layout styles, you must strictly follo
 ### E. Optimal Scene Type & High-Quality Alternatives
 - **Type Selection**: You must choose the `type` that best represents the primary communication goal of the scene (e.g., select `bullet_points` for a list of benefits, `quote` for a testimonial or bold claim, and `description` for standard narrative).
 - **Alternative Field Quality**: Even though you select a primary `type`, you MUST NOT provide lazy or generic text for the alternative fields. Every field (`subtitle`, `features`, `quote`) must be filled with high-quality, perfectly matching content that conveys the exact same message but formatted for that specific field. For example, if the primary `type` is `description`, the `features` array must still contain a meticulously summarized, punchy bulleted version of that exact description.
+
+### F. Universal Bookending: Opening & Closing Scene Requirements
+Every compiled video MUST have clearly defined, purposeful opening (Scene 1) and closing (Scene N) scenes. These scenes MUST be **concise, punchy, and clear**:
+- **Scene 1 (Opening / Hook):**
+  - Narration must be **15–25 words max**. Hook the viewer within the first 3–5 seconds.
+  - State the core thesis or headline immediately. No filler greetings or slow build-up.
+  - Category and title must clearly anchor the primary subject.
+- **Scene N (Closing / Wrap):**
+  - Narration must be **10–20 words max**.
+  - Deliver a crisp, decisive finish matching the topic (e.g. news kicker/milestone watch, conversion CTA, knowledge recap, or action deadline).
+  - Never allow a video to end abruptly without a definitive closure scene.
+

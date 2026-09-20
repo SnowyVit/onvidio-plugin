@@ -7,8 +7,24 @@ description: Trigger this skill when the user asks to turn a LinkedIn post into 
 
 This pillar handles videos designed to build authority, share insights, and grow an audience. The tone should be authentic, opinionated, and fast-paced (optimized for social feeds like LinkedIn and Shorts).
 
+## 🎬 Leading & Closure Framing
+
+Every influence video must bookend its narrative with social authority and engagement:
+
+### 1. The Leading Scene (The Polarizing Claim / Contrarian Hook)
+* **Concise & Immediate:** Spoken narration must be **strictly 15–25 words max**. Hook feed-scrollers within 3 to 5 seconds with a bold, provocative assertion.
+* **Category Eyebrow:** E.g., `PERSPECTIVE`, `HOT TAKE`, `UNPOPULAR OPINION`.
+
+### 2. The Closure Scene (The Engagement Prompt / Takeaway)
+* **Punchy & Decisive:** Spoken narration must be **strictly 10–20 words max**. Pose a conversation-starting question to drive comments and community discussion.
+* **Category Eyebrow:** E.g., `THE TAKEAWAY`, `WHAT'S YOUR TAKE`, `JOIN THE DISCUSSION`.
+
 ## 🏗️ Extensibility Guide
-To add a new topic to this pillar, simply create a new `### Topic: [Name]` section below and define its scene-by-scene narrative structure.
+To add a new topic to this pillar:
+1. Create a new `### Topic: [Name]` section below with trigger words.
+2. Define its scene-by-scene narrative structure.
+3. Ensure **Scene 1** adheres to the concise Polarizing Hook (15–25 words max).
+4. Ensure the **Final Scene** delivers the concise Engagement Prompt / Takeaway (10–20 words max).
 
 ## 📚 Topics
 

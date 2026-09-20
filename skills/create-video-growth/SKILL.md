@@ -7,8 +7,24 @@ description: Trigger this skill when the user asks to create a promotional video
 
 This pillar handles videos designed to persuade the viewer, generate leads, and close deals. The tone should be high-energy, ROI-focused, and visually engaging.
 
+## 🎬 Leading & Closure Framing
+
+Every growth video must bookend its narrative with high-conversion framing:
+
+### 1. The Leading Scene (The Pain-Point / Value Hook)
+* **Concise & Immediate:** Spoken narration must be **strictly 15–25 words max**. Hook the viewer within the first 3 to 5 seconds by introducing the core pain point or bold promise.
+* **Category Eyebrow:** E.g., `THE PROBLEM`, `INTRODUCING`, `NEW FEATURE`.
+
+### 2. The Closure Scene (The Call to Action)
+* **Punchy & Decisive:** Spoken narration must be **strictly 10–20 words max**. Provide a single, friction-free action.
+* **Category Eyebrow:** E.g., `GET STARTED`, `FREE TRIAL`, `NEXT STEPS`.
+
 ## 🏗️ Extensibility Guide
-To add a new topic to this pillar, simply create a new `### Topic: [Name]` section below and define its scene-by-scene narrative structure.
+To add a new topic to this pillar:
+1. Create a new `### Topic: [Name]` section below with trigger words.
+2. Define its scene-by-scene narrative structure.
+3. Ensure **Scene 1** adheres to the concise Leading Hook (15–25 words max).
+4. Ensure the **Final Scene** delivers the concise Call-To-Action (10–20 words max).
 
 ## 📚 Topics
 

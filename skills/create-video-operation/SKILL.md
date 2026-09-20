@@ -7,8 +7,24 @@ description: Trigger this skill when the user asks to create an internal team up
 
 This pillar handles videos designed to keep the team aligned, hire talent, and replace unnecessary meetings. The tone should be professional, concise, and culture-driven.
 
+## 🎬 Leading & Closure Framing
+
+Every operational video must bookend its narrative with leadership clarity and accountability:
+
+### 1. The Leading Scene (The Executive Context / Announcement)
+* **Concise & Immediate:** Spoken narration must be **strictly 15–25 words max**. State the core mission, milestone, or meeting objective immediately.
+* **Category Eyebrow:** E.g., `ALL HANDS`, `WEEKLY UPDATE`, `HIRING`.
+
+### 2. The Closure Scene (The Action Item & Deadline)
+* **Punchy & Decisive:** Spoken narration must be **strictly 10–20 words max**. Provide concrete next steps, deadlines, or channels for follow-up.
+* **Category Eyebrow:** E.g., `ACTION REQUIRED`, `NEXT STEPS`, `HOW TO APPLY`.
+
 ## 🏗️ Extensibility Guide
-To add a new topic to this pillar, simply create a new `### Topic: [Name]` section below and define its scene-by-scene narrative structure.
+To add a new topic to this pillar:
+1. Create a new `### Topic: [Name]` section below with trigger words.
+2. Define its scene-by-scene narrative structure.
+3. Ensure **Scene 1** adheres to the concise Executive Headline / Objective (15–25 words max).
+4. Ensure the **Final Scene** delivers the concise Action Item / Deadline (10–20 words max).
 
 ## 📚 Topics
 

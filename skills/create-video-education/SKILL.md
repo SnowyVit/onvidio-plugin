@@ -7,8 +7,24 @@ description: Trigger this skill when the user asks to create a tutorial, knowled
 
 This pillar handles videos designed to teach the viewer, answer questions, and reduce support tickets. The tone should be clear, methodical, step-by-step, and patient.
 
+## 🎬 Leading & Closure Framing
+
+Every educational video must bookend its narrative with clear learning outcomes:
+
+### 1. The Leading Scene (The Learning Objective / Curious Hook)
+* **Concise & Immediate:** Spoken narration must be **strictly 15–25 words max**. Hook the viewer in 3 to 5 seconds by stating what they will master or the curious question.
+* **Category Eyebrow:** E.g., `OBJECTIVE`, `WHAT YOU'LL LEARN`, `THE QUESTION`.
+
+### 2. The Closure Scene (Summary & Next Steps)
+* **Punchy & Decisive:** Spoken narration must be **strictly 10–20 words max**. Provide a crisp summary or direct the viewer to documentation/support.
+* **Category Eyebrow:** E.g., `SUMMARY`, `NEXT STEPS`, `RESOURCES`.
+
 ## 🏗️ Extensibility Guide
-To add a new topic to this pillar, simply create a new `### Topic: [Name]` section below and define its scene-by-scene narrative structure.
+To add a new topic to this pillar:
+1. Create a new `### Topic: [Name]` section below with trigger words.
+2. Define its scene-by-scene narrative structure.
+3. Ensure **Scene 1** adheres to the concise Learning Objective / Hook (15–25 words max).
+4. Ensure the **Final Scene** delivers the concise Summary / Resource wrap (10–20 words max).
 
 ## 📚 Topics
 
