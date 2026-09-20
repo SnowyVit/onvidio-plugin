@@ -85,7 +85,26 @@ When the user provides multiple news stories, raw wire feeds, or requests a "Dai
 * **60-Second Short Digest:** Curate **1 to 3 stories max** (3–4 scenes total).
 * **3-Minute News Digest:** Curate **4 to 7 stories max** (10–14 scenes total).
 
-### 2. Editorial Triage Protocol (When provided with > 7 stories)
+### 2. Story Hierarchy & Editorial Weight (Major vs. Minor News)
+In journalism, stories do NOT receive equal weight or arbitrary ordering. You MUST evaluate the relative significance of each news item and apply the **Broadcast Lineup Hierarchy**:
+
+1. **Front-Loaded Sequencing (Major Stories Always First):**
+   * Regardless of the order the user typed or listed the news items in, you **MUST re-order them by journalistic weight**.
+   * **The Major / Lead Story ALWAYS goes first (Story #1).**
+   * Secondary stories follow in descending order of consequence. Minor news items must be placed in the back block or bundled as rapid-fire briefs.
+
+2. **Differentiating Major vs. Minor Stories:**
+   * **Major Stories (High Public / Financial Stakes):**
+     - *Criteria:* Sovereign policy changes, systemic economic data, major regulatory enforcement, high-impact acquisitions, crisis/safety events, or industry-shifting announcements.
+     - *Treatment:* Gets **dedicated depth** (2–3 scenes: e.g., Lede + Key Data/Chyron + Soundbite/Quote). Eyebrow: `TOP STORY`, `BREAKING`, or `LEAD REPORT`.
+   * **Minor Stories (Secondary / Incremental Developments):**
+     - *Criteria:* Minor earnings beats/misses, app version updates, niche product features, executive lateral moves, or routine corporate releases.
+     - *Treatment:* Gets **agile, concise treatment** (1 single punchy scene with headline + 2 bullet points, ~15 words narration). Eyebrow: `IN BRIEF`, `ALSO TODAY`, or a specific sector tag like `TECH WATCH`.
+
+3. **Differential Screen Time:**
+   * Never allocate equal duration to major and minor stories. Dedicate ~60–70% of the video's total narrative time to the top 1–2 major stories, and the remaining 30–40% to secondary/minor stories.
+
+### 3. Editorial Triage Protocol (When provided with > 7 stories)
 If the user inputs 8 or more stories, act as the **Executive News Producer** and prune the list:
 1. **Prioritize High-Value News:**
    * Systemic economic impact, legislative/regulatory actions, major market shocks, public safety, and institutional accountability.
@@ -97,7 +116,7 @@ If the user inputs 8 or more stories, act as the **Executive News Producer** and
    * **Stories 5–6 (Industry/Trends):** Tech breakthroughs or sector shifts.
    * **Final Story (The Kicker):** An inspiring human interest, scientific, or forward-looking story before sign-off.
 
-### 3. Inter-Story Verbal Bridges
+### 4. Inter-Story Verbal Bridges
 Transitions between distinct stories in narration must use natural broadcast pivots:
 * **Thematic Pivot:** *"Turning from domestic policy to Wall Street, markets saw sharp swings today as..."*
 * **Geographic Pivot:** *"Meanwhile overseas, European regulators took decisive action against..."*
@@ -151,18 +170,22 @@ To add a new topic to this pillar:
 **Trigger Words:** daily brief, news digest, top stories, news roundup, weekly recap, the rundown  
 **Scene Count:** 4–5 Scenes (60s short, 1–3 stories) OR 10–14 Scenes (3min package, 4–7 stories)  
 **Narrative Structure:**
-1. **Scene 1: Anchor Lead-In & Story 1 (Top Headline)**  
+1. **Scene 1: Anchor Cold Open & Lead Story (The Major Headline)**  
    * *Type:* `description`  
-   * *Category:* `TOP STORY`  
-   * *Content:* Anchor introduces today's top development with urgency.
-2. **Scenes 2 to N-1: Sequential Story Blocks**  
-   * *Type:* Alternate between `bullet_points` (for metrics/facts) and `description` or `quote`.  
-   * *Category:* Sector or topic tags (`ECONOMY`, `GLOBAL`, `TECH REGULATION`, `ENERGY`).  
-   * *Bridge:* Connect each story with natural journalistic transitions (*"Turning to...", "Meanwhile..."*).
-3. **Final Scene: The Kicker Story & Newsroom Sign-Off**  
+   * *Category:* `TOP STORY` or `LEAD STORY`  
+   * *Content:* The most consequential news item of the day, delivered with immediate broadcast authority.
+2. **Scenes 2–3 (In 3-Min Package): Deepening the Major Story**  
+   * *Type:* `bullet_points` or `quote`  
+   * *Category:* `KEY DATA` or `OFFICIAL REACTION`  
+   * *Content:* Give the lead story proper investigative weight (hard numbers or official soundbite) before pivoting.
+3. **Scenes 4 to N-1: Secondary & Minor News Blocks (Strictly Ordered by Descending Consequence)**  
+   * *Type:* Alternate between `bullet_points` (for rapid stats/briefs) and `description`.  
+   * *Category:* Sector tags (`ECONOMY`, `POLICY WATCH`, `TECH WATCH`, `IN BRIEF`).  
+   * *Rule:* Minor stories receive a single brisk scene (~15 words narration). Connect each story with natural broadcast pivots (*"Turning to...", "Meanwhile..."*).
+4. **Final Scene: The Kicker Story & Newsroom Sign-Off**  
    * *Type:* `description`  
    * *Category:* `FINAL TAKE` or `SIGN-OFF`  
-   * *Bridge:* Closing story plus anchor sign-off and next broadcast cue.
+   * *Bridge:* Lighter forward-looking or human interest story, followed by the newsroom sign-off.
 
 ---
 
